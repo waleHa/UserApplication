@@ -10,6 +10,15 @@
     android:background="#617711"
     tools:context=".ui.UserActivity">
 
+    <ProgressBar
+        android:id="@+id/progress_bar_musician"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_user"
         android:layout_width="wrap_content"

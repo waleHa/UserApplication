@@ -35,6 +35,9 @@
                 android:orientation="horizontal"
                 android:textSize="@dimen/text_18sp"
                 android:textStyle="bold"
+                app:autoSizeMaxTextSize="22sp"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeTextType="uniform"
                 tools:text="User Name" />
 
             <TextView
@@ -43,7 +46,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_16dp"
                 android:gravity="center"
+                android:lines="1"
                 android:textSize="@dimen/text_18sp"
+                app:autoSizeMaxTextSize="18sp"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeTextType="uniform"
                 tools:text="User Email" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
